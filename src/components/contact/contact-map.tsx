@@ -76,6 +76,7 @@ export default function ContactMap() {
 
     return () => {
       if (mapRef.current) {
+        // eslint-disable-next-line react-hooks/exhaustive-deps
         mapRef.current.innerHTML = ''
       }
     }
